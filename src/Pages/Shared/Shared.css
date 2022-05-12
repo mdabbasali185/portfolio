@@ -1,0 +1,32 @@
+/* header */
+
+.nav-item a {
+  min-width: 80px;
+  padding: 0 30px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.navbar-nav span {
+  background-color: #333;
+  height: 40px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s ease;
+}

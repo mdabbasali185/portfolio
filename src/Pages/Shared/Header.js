@@ -72,7 +72,7 @@ const Header = () => {
                             <a class="nav-link" href="#about">about </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#work">work</a>

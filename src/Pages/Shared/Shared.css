@@ -30,3 +30,53 @@
   z-index: -1;
   transition: 0.5s ease;
 }
+
+.toggleButton {
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.toggleButton span {
+  display: block;
+  height: 2px;
+  width: 30px;
+  margin:7px 0;
+  background: #000;
+  transition: all .5s ease-in-out;
+}
+
+.toggleButton span:nth-child(2){
+    height: 1px;
+}
+
+.toggleButton.active span:nth-child(2){
+    display: none;
+}
+.toggleButton.active span:first-child{
+    transform: rotate(45deg) translate(5.6px);
+}
+.toggleButton.active span:last-child{
+    transform: rotate(-45deg) translate(5.6px);
+}
+
+.myNav{
+    position: fixed;
+    list-style-type: none;
+    top: 55px;
+    right: -100%;
+    background: white;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+.myNav.active{
+    right: 0;
+}
+
+@media (min-width: 992px) {
+    .myNav{
+        display: none !important; 
+    }
+}

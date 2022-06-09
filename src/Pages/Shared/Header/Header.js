@@ -25,14 +25,20 @@ const Header = () => {
                                 Serivces
                             </Link>
                         </li>
-                        
+
                         <li>
                             <Link to="portfolio" spy={true} smooth={true}>
                                 Protfolio
                             </Link>
                         </li>
-                        
-                        
+
+                        <li>
+                            <Link to="contact" spy={true} smooth={true}>
+                                Contact
+                            </Link>
+                        </li>
+
+
                     </ul>
                 </div>
                 <a href={Resume} download>

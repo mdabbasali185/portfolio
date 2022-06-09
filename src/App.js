@@ -14,7 +14,8 @@ import "./App.css";
 
 function App() {
   const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  console.log(theme);
+  const darkMode = theme?.state?.darkMode;
   return (
     <div className='App'
 
@@ -23,9 +24,6 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-
-
-
       <Header />
       <Intro />
       <Services />

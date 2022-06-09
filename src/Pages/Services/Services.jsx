@@ -44,11 +44,7 @@ const Services = () => {
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-          <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
-          />
+          
         </motion.div>
         {/* second card */}
         <motion.div
@@ -70,9 +66,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"MERN Stack"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "My ultimate goal is to become an awesome MERN Stack developer."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

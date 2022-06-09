@@ -32,7 +32,7 @@ const Services = () => {
           Here is my last 3 projects.
         </spane>
         <a href={Resume} download>
-          <button className="button s-button text-dark fw-bold  text-center ">Download Resume</button>
+          <button className="button s-button fw-bold">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

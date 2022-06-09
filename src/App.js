@@ -1,16 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from "../src/Pages/Shared/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useContext } from "react";
+// import Testimonial from "../src/Pages/Testimonials/Testimonial.jsx";
+import Contact from "../src/Pages/Contact/Contact";
 import Intro from "../src/Pages/Intro/Intro.jsx";
-import Services from "../src/Pages/Services/Services.jsx";
 // import Experience from "../src/Pages/Experience/Experience.jsx";
 // import Works from "../src/Pages/Works/Works.jsx";
 import Portfolio from "../src/Pages/Portfolio/Portfolio.jsx";
-// import Testimonial from "../src/Pages/Testimonials/Testimonial.jsx";
-import Contact from "../src/Pages/Contact/Contact";
+import Services from "../src/Pages/Services/Services.jsx";
 import Footer from "../src/Pages/Shared/Footer/Footer.jsx";
-import { useContext } from "react";
-import { themeContext } from "./Context";
 import "./App.css";
+import { themeContext } from "./Context";
+import Header from "./Pages/Shared/Header/Header";
 
 function App() {
   const theme = useContext(themeContext);
@@ -27,6 +27,7 @@ function App() {
       <Header />
       <Intro />
       <Services />
+      
       {/* <Experience /> */}
       {/* <Works /> */}
       <Portfolio />

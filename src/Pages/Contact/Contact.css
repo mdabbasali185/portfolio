@@ -22,6 +22,22 @@
     align-items: center;
     
 }
+.submit-button{
+    background-color: #FCA61F;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: #FCA61F;
+}
+.msg{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FCA61F;
+}
 
 .c-right .user{
     width: 20rem;

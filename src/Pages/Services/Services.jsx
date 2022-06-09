@@ -6,7 +6,7 @@ import Glasses from "../img/glasses.png";
 import Humble from "../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -25,14 +25,14 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Projects</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am Md Abbas Ali and want to be a successful Front-End Developer.
           <br />
-          ispum is simpley dummy text of printing
+          Here is my last 3 projects.
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button text-dark fw-bold  text-center ">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

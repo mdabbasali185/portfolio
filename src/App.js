@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from "../src/Pages/Shared/Header";
 import Intro from "../src/Pages/Intro/Intro.jsx";
 import Services from "../src/Pages/Services/Services.jsx";
-import Experience from "../src/Pages/Experience/Experience.jsx";
-import Works from "../src/Pages/Works/Works.jsx";
+// import Experience from "../src/Pages/Experience/Experience.jsx";
+// import Works from "../src/Pages/Works/Works.jsx";
 import Portfolio from "../src/Pages/Portfolio/Portfolio.jsx";
-import Testimonial from "../src/Pages/Testimonials/Testimonial.jsx";
+// import Testimonial from "../src/Pages/Testimonials/Testimonial.jsx";
 import Contact from "../src/Pages/Contact/Contact";
 import Footer from "../src/Pages/Shared/Footer/Footer.jsx";
 import { useContext } from "react";
@@ -27,10 +27,10 @@ function App() {
       <Header />
       <Intro />
       <Services />
-      <Experience />
-      <Works />
+      {/* <Experience /> */}
+      {/* <Works /> */}
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>

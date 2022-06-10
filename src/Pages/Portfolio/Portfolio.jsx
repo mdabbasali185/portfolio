@@ -101,7 +101,7 @@ const Portfolio = () => {
       </div>
 
       {/* heading */}
-      <span className="text-center fs-1 py-5" style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
+      <span className="text-center fs-1 " style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span className="text-center fs-2">Portfolio</span>
 
       {/* slider */}

@@ -27,6 +27,11 @@ const Header = () => {
                         </li>
 
                         <li>
+                            <Link to="about" spy={true} smooth={true}>
+                                About
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="portfolio" spy={true} smooth={true}>
                                 Protfolio
                             </Link>

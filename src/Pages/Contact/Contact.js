@@ -1,7 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.css";
-// import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 function ContactForm() {
   const theme = useContext(themeContext);
@@ -29,8 +28,8 @@ function ContactForm() {
 
 
         <form action="https://formspree.io/f/meqndkpb" method="POST" onSubmit={handleSubmit}>
-          <label htmlFor="email">
-            Email Address
+          <label className="fs-4 fw-bold" htmlFor="email">
+            Please fill up this section.
           </label>
           <input
             id="Name"

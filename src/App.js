@@ -10,6 +10,7 @@ import Services from "../src/Pages/Services/Services.jsx";
 import Footer from "../src/Pages/Shared/Footer/Footer.jsx";
 import "./App.css";
 import { themeContext } from "./Context";
+import About from './Pages/About/About.jsx';
 import Header from "./Pages/Shared/Header/Header";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       
       {/* <Experience /> */}
       {/* <Works /> */}
+      <About />
       <Portfolio />
       {/* <Testimonial /> */}
       <Contact />

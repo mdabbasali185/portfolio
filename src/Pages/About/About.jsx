@@ -13,9 +13,7 @@ const About = () => {
       <span
         className="text-center fs-1 "
         style={{ color: darkMode ? "white" : "" }}
-      >
-        
-      </span>
+      ></span>
       <div className="row d-flex align-items-center justify-content-center ">
         <div className="col-lg-6">
           <img className="img-edit img-fluid" src={ownPic} alt="" />
@@ -73,13 +71,16 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <a
-              href="https://drive.google.com/file/d/1rl6qoc1-3xQ3avf3vzbt8YedM0cBVkaN/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="btn btn-primary">Download Resume</button>
-            </a>
+            <div className="btn-style">
+              <a
+                href="https://drive.google.com/file/d/1rl6qoc1-3xQ3avf3vzbt8YedM0cBVkaN/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>button</span>
+                <i></i>
+              </a>
+            </div>
           </div>
           <div className="col-lg-6">
             <label htmlFor="">HTML</label>

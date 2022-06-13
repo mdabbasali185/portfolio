@@ -32,7 +32,9 @@ const Services = () => {
           Here is my last 3 projects.
         </spane>
         <a href={Resume} download>
-          <button className="button s-button fw-bold">Download Resume</button>
+          <button  className="button s-button fw-bold">
+            <span>Download Resume</span> <i></i>
+          </button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -43,9 +45,7 @@ const Services = () => {
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
-        >
-          
-        </motion.div>
+        ></motion.div>
         {/* second card */}
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}

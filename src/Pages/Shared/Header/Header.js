@@ -46,9 +46,12 @@ const Header = () => {
 
                     </ul>
                 </div>
-                <a href={Resume} download>
-                    <button className="button s-button fw-bold">Download Resume</button>
-                </a>
+                <div  className="btn-style">
+                    <a className="first-style" href={Resume} download>
+                        <span>Resume</span>
+                        <i></i>
+                    </a>
+                </div>
             </div>
         </div>
     );

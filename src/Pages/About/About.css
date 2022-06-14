@@ -3,43 +3,45 @@
   padding-top: 3rem;
 }
 
-.btn-style  {
-  --clr:#6eff3e
+.second-style {
+  --clr:#1e9bff
+}
+.btn-style {
+  --clr: #6eff3e;
 }
 
-.btn-style a{
+.btn-style a {
   position: relative;
   background: #444;
   color: #fff;
   padding: 10px 30px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-decoration: none;
-  transition: .5s;
-
+  transition: 0.5s;
 }
 .btn-style a:hover {
-  letter-spacing: .25em;
+  letter-spacing: 0.25em;
   background: var(--clr);
   color: var(--clr);
   box-shadow: 0 0 35px var(--clr);
 }
-.btn-style a::before{
+.btn-style a::before {
   content: " ";
   position: absolute;
   inset: 2px;
   background-color: #27282c;
 }
-.btn-style a span{
+.btn-style a span {
   position: relative;
   z-index: 1;
 }
-.btn-style a i{
+.btn-style a i {
   position: absolute;
   inset: 0;
   display: block;
 }
-.btn-style a i::before{
+.btn-style a i::before {
   content: " ";
   position: absolute;
   top: -3.5px;
@@ -48,11 +50,10 @@
   height: 5px;
   border: 2px solid var(--clr);
   background-color: #27282c;
-  transition: .5s;
+  transition: 0.5s;
   transform: translateX(-50%);
-
 }
-.btn-style a:hover i::before{
+.btn-style a:hover i::before {
   width: 20px;
   left: 20%;
 }
@@ -65,9 +66,8 @@
   height: 5px;
   border: 2px solid var(--clr);
   background-color: #27282c;
-  transition: .5s;
+  transition: 0.5s;
   transform: translateX(-50%);
-
 }
 
 .btn-style a:hover i::after {

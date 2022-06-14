@@ -30,7 +30,17 @@ const About = () => {
             passionate about building excellent website and improve about
             building.
           </p>
-          <button className="btn btn-primary"> Explore me</button>
+          <div className="btn-style">
+            <a
+              className="second-style"
+              href="https://www.linkedin.com/in/mdabbasali185/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>More details</span>
+              <i></i>
+            </a>
+          </div>
         </div>
       </div>
       <div>

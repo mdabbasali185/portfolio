@@ -43,6 +43,10 @@
   flex: 2;
 }
 
+.first-style{
+  --clr:#ff1867
+}
+
 @media screen and (max-width: 480px) {
   .n-list {
     display: none;
